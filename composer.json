@@ -18,8 +18,7 @@
             "target-directory": "oe/unitorder"
         }
     },
-    "require": {},
-    "minimum-stability": "dev",
+    "require": {},    
     "autoload":    {
         "psr-4": {
             "oe\\unitorder\\": "../../../source/modules/oe/unitorder"
