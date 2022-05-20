@@ -1,0 +1,30 @@
+{
+    "name":        "unitorder/oxid6module",
+    "description": "UnitOrder",
+    "type":        "oxideshop-module",    
+    "keywords":    [
+        "oxid",
+        "modules",
+        "eShop",
+        "payment"
+    ],
+    "homepage":    "",
+    "license":     [
+        "GPL-3.0",
+        "proprietary"
+    ],    
+    "extra":       {
+        "oxideshop": {
+            "target-directory": "oe/unitorder"
+        }
+    },
+    "require": {},
+    "minimum-stability": "dev",
+    "autoload":    {
+        "psr-4": {
+            "oe\\unitorder\\": "../../../source/modules/oe/unitorder"
+       }
+    }
+}
+
+
